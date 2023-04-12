@@ -1,26 +1,31 @@
 # Run:ai & WandB Demo - Cifar10 Classification
 
-Kubernetes is a widely used open-source orchestraction system for automating deployment, scaling, and management of containerized applications. Due to the high adoption rate of Kubernetes, data scientists are getting more exposed to it. However, in the development stage, the complexity and unknowns of this system leads to unproductivity and neglecting their data science tasks of data science teams. 
+Kubernetes is an open-source orchestration system that simplifies deployment, scaling, and management of containerized applications. However, its complexity can lead to productivity loss and neglect of data science tasks for teams. The Run:ai and WandB integration addresses these challenges, providing data scientists with streamlined workflows, enhanced experiment tracking, and simplified infrastructure management.
 
-In this Demo, we will demonstrate how data scientists can accelarate their workflows and experiment tracking using WandB integration of Run:ai. This integration offers them not to be a specialist in infrastructure while leveraging all capabilities (and many more) of Kubernetes.
+## Key Benefits
+The Run:ai and WandB integration provides data scientists with several key benefits, including:
+
+* **Streamlined workflows**: The integration simplifies infrastructure usage on Kubernetes, allowing data scientists to focus on their core data science tasks. They can easily manage their experiments and allocate resources based on their specific needs.
+
+* **Enhanced experiment tracking**: The integration enables data scientists to track their experiments in real-time and collaborate more easily with their team members. They can monitor their experiments and get insights into their performance, making it easier to improve their models.
+
+* **Simplified infrastructure management**: The integration abstracts away the complexity of Kubernetes, making it easier for data scientists to run their experiments without requiring specialist knowledge in infrastructure management.
+
+## Demo Overview
+This demo showcases the seamless integration of Run:ai and WandB with Cifar10 classification. Cifar10 is a dataset of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The objective is to classify the images into their respective classes using deep learning algorithms.
 
 ## Setup without Run:ai
 
-We assume that there is an existing Kubernetes cluster that we have access to. Our next steps without Run:ai would look like following;
+Assuming an existing Kubernetes cluster, the following steps would be necessary without the Run:ai and WandB integration:
 
-* Create a Dockerfile that includes: 
-  * Wandb installation
-  * Training script (Copy path)
-  * Other installations (e.g. VSCode, Jupyter, Pytorch etc.)
-  * Networking details of the tools (e.g. exposed port for Jupyter Lab to run)
-* Build the image
-* Push the image to a private Docker repository
-* Configure the deployment yaml file of Kubernetes with WandB secret
-  * Container configurations for this deployment (including the image that is created)
-  * Resource specifics for the container (GPU, CPU memory)
-  * WandB API key as environment variable
-* Deploy the secret
-* Run the deployment with your container that you created.
+1. Create a Dockerfile that includes WandB installation, training script (with path), and other installations such as VSCode, Jupyter, Pytorch, etc.
+2. Build the Docker image and push it to a private Docker repository.
+3. Configure the deployment YAML file for Kubernetes, including
+ * Container configurations, 
+ * Resource specifics for the container (GPU, CPU, memory), 
+ * WandB API key as an environment variable.
+ * Networking details of the tools, such as an exposed port for Jupyter Lab to run.
+4. Run the deployment with the container that was created.
 
 For more information and details, please check out [this documentation](https://wandb.ai/site/articles/model-explorations-and-hyperparameter-search-with-w-b-and-kubernetes)
 
