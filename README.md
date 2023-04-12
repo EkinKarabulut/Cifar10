@@ -30,8 +30,11 @@ Here we assume that there is an existing Kubernetes cluster and Run:ai is instal
 
 * We first login to our account on the UI
 
-* Then we head to workspaces
+![Alt text](login.png?raw=true "Title")
 
+* Then we head to workspaces and create a new workspace 
 
+![Alt text](workspaces.png?raw=true "Title")
 
+![Alt text](new_workspace.png?raw=true "Title")
 
