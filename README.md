@@ -12,7 +12,7 @@ The Run:ai and WandB integration provides data scientists with several key benef
 * **Simplified infrastructure management**: The integration abstracts away the complexity of Kubernetes, making it easier for data scientists to run their experiments without requiring specialist knowledge in infrastructure management.
 
 ## Demo Overview
-This demo showcases the seamless integration of Run:ai and WandB with Cifar10 classification. Cifar10 is a dataset of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The objective is to classify the images into their respective classes using deep learning algorithms.
+This demo showcases the seamless integration of Run:ai and WandB with Cifar10 classification in comparison to traditional Kubernetes setup. Cifar10 is a dataset of 60,000 32x32 color images in 10 classes, with 6,000 images per class. The objective is to classify the images into their respective classes using deep learning algorithms.
 
 ## Setup without Run:ai
 
