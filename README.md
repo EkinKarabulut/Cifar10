@@ -38,12 +38,13 @@ Click on the "Workspaces" tab and start creating a new workspace for the demo.
 ![Alt text](images/cifar10_new_workspace.png?raw=true "Title")
 
 
+### Step 3: Choose the project, tools (IDEs), compute resource
 
-### Step 3: Choose the project and compute resource
-
-Select the "cifar10-classification" project and choose the compute resource that best suits your needs. Be aware that these are ready made templates and if you have different kind of resources for your projects, you can always add a new type of resource with clicking "New Compute Resource" section.
+Select the "cifar10-classification" project and choose the tool (e.g. Jupyter, VSCode, Pycharm, MLFlow, Kubeflow etc.) that you want to work with. Then select compute resource that best suits your needs. Be aware that these are ready made templates. If you have different envrionments (with specific container images) and/or resources for your projects, you can always add a new type of envrionment/resource with clicking "New Compute Resource/Envrionment" buttons.
 
 ![Alt text](images/cifar10_name_workspace.png?raw=true "Title")
+
+![Alt text](images/cifar10_creating_new_envrionment.png?raw=true "Title")
 
 ![Alt text](images/cifar10_choose_compute.png?raw=true "Title")
 
