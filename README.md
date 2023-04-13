@@ -41,7 +41,7 @@ Click on the "Workspaces" tab and start creating a new workspace for the demo.
 
 ### Step 3: Choose the project and compute resource
 
-Select the "cifar10-classification" project and choose the compute resource that best suits your needs. Be aware that these are ready made templates and if you have more different resources for your projects, you can always add a new type of resource with clicking "New Compute Resource" section.
+Select the "cifar10-classification" project and choose the compute resource that best suits your needs. Be aware that these are ready made templates and if you have different kind of resources for your projects, you can always add a new type of resource with clicking "New Compute Resource" section.
 
 ![Alt text](images/cifar10_name_workspace.png?raw=true "Title")
 
@@ -49,7 +49,7 @@ Select the "cifar10-classification" project and choose the compute resource that
 
 ### Step 4: Choose the data source and create the workspace
 
-* We can also select a data source or create a new one. For this demo, we will download the cifar dataset on the fly within the Jupyter Notebook. Therefore, mounting a data source is not required. After choosing the datas source, you can create the workspace by clicking the "Create Workspace" button.
+* Select a data source or create a new one. After choosing the datas source, create the workspace by clicking the "Create Workspace" button. (For this demo, we will download the CIFAR10 dataset on the fly within the Jupyter Notebook. Therefore, mounting a data source is not required).
 
 ![Alt text](images/cifar10_choose_data_source.png?raw=true "Title")
 
@@ -63,7 +63,7 @@ Once the pod is deployed, click "Connect" to access the JupyterLab interface wit
 
 ### Step 6: Clone your Github repository and download required libraries
 
-Clone the Github repository where your project currently resides. Then, download all libraries in the requirements.txt file, or create a specific image of the required libraries (This can also be done by creating a specific images of the required libraries).
+Clone the Github repository where your project currently resides. Then, download all libraries in the requirements.txt file.
 
 ![Alt text](images/cifar10_clone_your_repo.png?raw=true "Title")
 
@@ -77,7 +77,7 @@ You can now go ahead and start training with your first model in the Jupyter Not
 
 ### Step 9: Initialize WandB
 
-Initialize WandB for the run and configuration under the project name "cifar10-project". After running this cell, WandB will ask for our API key. You can find it under "User Settings > Danger Zone > API Key" in your Wandb account. We copy the key and click enter.
+Initialize WandB for the run and configuration under the project name "cifar10-project". After running this cell, WandB will ask for the API key. You can find it under "User Settings > Danger Zone > API Key" in your Wandb account. Paste the key and click enter.
 
 ![Alt text](images/cifar10_initialize_wandb.png?raw=true "Title")
 
@@ -85,11 +85,11 @@ Initialize WandB for the run and configuration under the project name "cifar10-p
 
 ### May the force of GPUs be with you!
 
-Now we can see that it created a wandb folder to log our runs and started synching the run (this one is called "happy-music"). We can simply click on the link and head to the WandB dashboard to see first insights.
+Now we can see that it created a wandb folder to log our runs and started synching the run (this one is called "happy-music"). Click on the link and head to the WandB dashboard to see first insights.
 
 ![Alt text](images/cifar10_wandb_ready.png?raw=true "Title")
 
-We can observe all of our runs within this project on the dashboard, filter them out depending on different configuration and compare the loss and accuracy graphs of the runs in real time. This gives us the opportunity to interfere quickly when the results does not look as expected without worrying about the resources and configurations. We can also create sweep jobs, where different runs with different parameters that we want to observe can be run in the queue, while giving us more visibility over the correlation between different variables and metrics. 
+You can observe all of your runs within this project on the dashboard, filter them out depending on different configuration and compare the loss and accuracy graphs of the runs in real time. This gives data scientists the opportunity to interfere quickly when the results do not look as expected without worrying about the resources and network configurations. You can also create sweep jobs, where different runs with different parameters that you want to observe can be run in the queue with Run:ai's smart scheduling, while giving you more visibility over the correlation between different variables and metrics. 
 
 ![Alt text](images/cifar10_wandb_dashboard.png?raw=true "Title")
 
