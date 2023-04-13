@@ -39,7 +39,34 @@ Here we assume that there is an existing Kubernetes cluster and Run:ai is instal
 
 * Then we head to workspaces and create a new workspace 
 
-![Alt text](images/login_screen.png?raw=true "Title")
+![Alt text](images/cifar10_demo_workspaces.png?raw=true "Title")
 
+![Alt text](images/cifar10_new_workspace.png?raw=true "Title")
 
+![Alt text](images/cifar10_name_workspace.png?raw=true "Title")
 
+![Alt text](images/cifar10_creating_new_environment.png?raw=true "Title")
+
+![Alt text](images/cifar10_choose_compute.png?raw=true "Title")
+
+![Alt text](images/cifar10_choose_data_source.png?raw=true "Title")
+
+![Alt text](images/cifar10_jupyter_connection.png?raw=true "Title")
+
+![Alt text](images/cifar10_jupyter_interface.png?raw=true "Title")
+
+![Alt text](images/cifar10_clone_your_repo.png?raw=true "Title")
+
+![Alt text](images/cifar10_download_requirements.png?raw=true "Title")
+
+![Alt text](images/cifar10_ready_to_go.png?raw=true "Title")
+
+![Alt text](images/cifar10_initialize_wandb.png?raw=true "Title")
+
+![Alt text](images/cifar10_api_key.png?raw=true "Title")
+
+![Alt text](images/cifar10_wandb_ready.png?raw=true "Title")
+
+![Alt text](images/cifar10_wandb_dashboard.png?raw=true "Title")
+
+![Alt text](images/cifar10_wandb_logs.png?raw=true "Title")
