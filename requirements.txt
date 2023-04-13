@@ -1,3 +1,7 @@
-torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+-f https://download.pytorch.org/whl/torch_stable.html
+torch
+-f https://download.pytorch.org/whl/torch_stable.html
+torchvision
+-f https://download.pytorch.org/whl/torch_stable.html
+torchaudio
 wandb
-
