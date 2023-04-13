@@ -2,8 +2,7 @@
 
 Kubernetes is an open-source orchestration system that simplifies deployment, scaling, and management of containerized applications. However, its complexity can lead to productivity loss and neglect of data science tasks for teams. The Run:ai and Weights & Biases (WandB) integration addresses these challenges, providing data scientists with streamlined workflows, enhanced experiment tracking, and simplified infrastructure management.
 
-## Key Benefits
-The Run:ai and WandB integration provides data scientists with several key benefits, including:
+## Why Run:ai & WandB?
 
 * **Streamlined workflows**: The integration simplifies infrastructure usage on Kubernetes, allowing data scientists to focus on their core data science tasks. They can easily manage their experiments and allocate resources based on their specific needs.
 
@@ -50,7 +49,7 @@ Select the "cifar10-classification" project and choose the tool (e.g. Jupyter, V
 
 ### Step 4: Choose the data source and create the workspace
 
-* Select a data source or create a new one. After choosing the datas source, create the workspace by clicking the "Create Workspace" button. (For this demo, we will download the CIFAR10 dataset on the fly within the Jupyter Notebook. Therefore, mounting a data source is not required).
+Select a data source or create a new one. After choosing the datas source, create the workspace by clicking the "Create Workspace" button. (For this demo, we will download the CIFAR10 dataset on the fly within the Jupyter Notebook. Therefore, mounting a data source is not required).
 
 ![Alt text](images/cifar10_choose_data_source.png?raw=true "Title")
 
