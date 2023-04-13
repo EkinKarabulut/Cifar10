@@ -96,3 +96,5 @@ You can observe all of your runs within this project on the dashboard, filter th
 
 ![Alt text](images/cifar10_wandb_logs.png?raw=true "Title")
 
+### Happy Experimenting!
+
